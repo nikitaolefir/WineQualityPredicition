@@ -28,7 +28,6 @@ def load_data(red_path='data/winequality-red.csv', white_path='data/winequality-
     print(f"Loaded {len(red_wine)} red wines and {len(white_wine)} white wines")
     print(f"Total dataset size: {len(wines)} samples")
     print(f"\nDataset shape: {wines.shape}")
-    print(f"\nColumn names:\n{wines.columns.tolist()}")
     
     return wines
 
