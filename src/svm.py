@@ -152,7 +152,6 @@ class SVM:
                 print(f"Iteration {iteration + 1}/{self.n_iterations} - Loss: {loss:.4f}, Accuracy: {accuracy:.4f}")
         
         if self.verbose:
-            print(f"\nTraining completed!")
             print(f"Final Loss: {self.history['loss'][-1]:.4f}")
             print(f"Final Accuracy: {self.history['accuracy'][-1]:.4f}")
         
