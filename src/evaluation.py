@@ -120,7 +120,6 @@ def plot_confusion_matrix(y_true, y_pred, model_name="Model", save_path=None):
     # Saving 
     if save_path:
         plt.savefig(save_path, dpi=300, bbox_inches='tight')
-        print(f"Confusion matrix saved to {save_path}")
     
     plt.show()
 
@@ -170,7 +169,6 @@ def plot_training_curves(history, model_name="Model", save_path=None):
     
     if save_path:
         plt.savefig(save_path, dpi=300, bbox_inches='tight')
-        print(f"Training curves saved to {save_path}")
     
     plt.show()
 
@@ -363,7 +361,6 @@ def plot_all_metrics_comparison(results, save_path=None):
     
     if save_path:
         plt.savefig(save_path, dpi=300, bbox_inches='tight')
-        print(f"All metrics comparison saved to {save_path}")
     
     plt.show()
 
